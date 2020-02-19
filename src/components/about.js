@@ -8,8 +8,6 @@ class About extends React.Component{
     return(
       <div>
        
-        <h2>about</h2>
-        
         </div>
      
     )

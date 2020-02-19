@@ -52,28 +52,7 @@ export default function Footer() {
     const classes = useStyles();
         return(
             <div>
-              <div class="container">
-            <nav>
-              <h3>TEAM RINK</h3>
-              <ul>
-                <Link to="/main" className={classes.linkin}>
-                <li classNam={classes.listing}>home</li>
-                </Link>
-                <Link to="/about" className={classes.linkin}>
-                <li classNam={classes.listing}>about</li>
-                </Link>
-            
-                <Link to="/service" className={classes.linkin}>
-                <li classNam={classes.listing}>service</li>
-                </Link>
-       
-                <Link to="/contact" className={classes.linkin}>
-                <li classNam={classes.listing}>contact</li>
-                </Link>
-            
-              </ul>
-            </nav>
-          </div>
+                <h4>Footer</h4>
             </div>
         )
     }
